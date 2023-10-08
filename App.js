@@ -1,12 +1,11 @@
 import * as React from 'react';
 import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import Svg from 'react-native-svg'
 
-const [state, setState] = useState([{ name: 'John', age: 30 }, { name: 'John', age: 30 },{ name: 'John', age: 30 },{ name: 'John', age: 30 }]);
+// const [state, setState] = useState([{ name: 'John', age: 30 }, { name: 'John', age: 30 }, { name: 'John', age: 30 }, { name: 'John', age: 30 }]);
 export default function App() {
   return (
-    
+
     <LinearGradient colors={['#FBCB00', '#BF9A00']} style={styles.backgroundColor}>
       <View style={styles.container}>
         <Text style={styles.heading}>LOGIN</Text>
@@ -53,7 +52,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 25,
-    gap:25,
+    gap: 25,
   },
   heading: {
     fontSize: 25,

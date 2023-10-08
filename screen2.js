@@ -1,7 +1,7 @@
 import React from "react";
-import { View, Text,Button, StyleSheet, } from "react-native";
+import { View, Text, Button, StyleSheet, } from "react-native";
 const Screen2 = () => {
-    return(
+    return (
         <View>
 
         </View>
@@ -9,7 +9,7 @@ const Screen2 = () => {
 }
 
 const styles = StyleSheet.create({
-    
+
 })
 
 export default Screen2;
